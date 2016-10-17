@@ -6,15 +6,21 @@
     "email": "alphazygma@gmail.com",
     "phone": "(650) 919-3184",
     "website": "https://alphazygma.github.io",
-    "summary": "Alex is a developer with a passion for Video Games and is working towards starting his on company within the next 10 years. He earned his BoS degree in Mexico where he worked for a couple years before he had the opportunity to come work in the US at companies like Google and Disney. He enjoys developing fast, scalable and easy to maintain system, and his main focus is on Backend development. Alejandro strive on an environment of like-minded people where he can learn from others or help others raise their skills. When he's not at work, he enjoys playing videogames or boardgames, exercising here and there or even running a Spartan Race once in a while.",
+    "summary": "Alex is a developer with a passion for Video Games and is working towards starting his own company within the next 10 years. He earned his BoS degree in Mexico where he worked for a couple years before he had the opportunity to come work in the US at companies like **Google** and **Disney**. He enjoys developing fast, scalable and easy to maintain system, and his main focus is on Backend development. Alejandro strive on an environment of like-minded people where he can learn from others or help others raise their skills. When he's not at work, he enjoys playing videogames or boardgames, exercising here and there or even running a Spartan Race once in a while.",
     "location": {
       "address": "1957 California St.",
-      "postalCode": "CA 94040",
+      "postalCode": "94040",
       "city": "Mountain View",
       "countryCode": "US",
-      "region": "California"
+      "region": "CA"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Alejandro Salazar",
+        "url": "https://www.linkedin.com/in/alejandro-salazar-85b3749"
+      }
+    ]
   },
   "work": [
     {
