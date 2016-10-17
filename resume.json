@@ -1,0 +1,342 @@
+{
+  "basics": {
+    "name": "Alejandro B. Salazar",
+    "label": "Sr. Software Engineer/Lead",
+    "picture": "",
+    "email": "alphazygma@gmail.com",
+    "phone": "(650) 919-3184",
+    "website": "https://alphazygma.github.io",
+    "summary": "Alex is a developer with a passion for Video Games and is working towards starting his on company within the next 10 years. He earned his BoS degree in Mexico where he worked for a couple years before he had the opportunity to come work in the US at companies like Google and Disney. He enjoys developing fast, scalable and easy to maintain system, and his main focus is on Backend development. Alejandro strive on an environment of like-minded people where he can learn from others or help others raise their skills. When he's not at work, he enjoys playing videogames or boardgames, exercising here and there or even running a Spartan Race once in a while.",
+    "location": {
+      "address": "1957 California St.",
+      "postalCode": "CA 94040",
+      "city": "Mountain View",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Pley",
+      "position": "Sr. Software Engineer/Lead",
+      "website": "https://www.pley.com",
+      "startDate": "2014-08-25",
+      "endDate": "3014-08-25",
+      "summary": "Pley is a Toy subscription rental and toy box company that seeks to give kids great toys that are educational as well, while making it affordable to parents, and support the environment by reducing the need to create so many toys that will eventually get trashed.",
+      "highlights": [
+        "#### Rental Subscription Platform",
+        "Redesigned from ground up and implemented the rental subscription platform.",
+        "+ Achieved _maintainability_ when compared to the legacy monolithic version, by using good coding practices like single responsibility, low code complexity, code abstraction and some design patterns.",
+        "+ Increased _scalability_, when compared to legacy code that performed queries directly on controllers, by leveraging Laravel’s Framework libraries and decorating them so that data could be seamlessly cached without Reflection overhead.",
+        "+ Increased _performance_, measured by decreased API response time (2s-4s to 100ms-600ms) and increased number or requests supported by same server hardware (~10 to ~500)",
+        "Redesigned and implemented the warehouse operations system in collaboration with the Warehouse manager to provide a cleaner and more efficient flow.",
+        "Integrated with EasyPost for Shipping Label purchasing.",
+        "Achieved hi data reliability when compared to the previous system, by using database transactions to ensure that operations were atomic when data could be modified from different sources. (The previous system lost shipments, inventory got out of sync or multiple copies of the same data was created)",
+        "+ At the same time, saved on average $6 to $10 per shipment to the company by avoiding data being duplicated.",
+        "Used some NoSql structures within relational database to address restriction to only use MySql to store user preferences that are a more a set or rules than relational values.",
+        "Designed a multi-level hierarchy tree to store a toy catalog similar to what e-commerce systems like BestBuy, Amazon and others could have, in 3 weeks, the design would use the Path Enumeration technique to store the data tree on the relational database.",
+
+        "#### Toy Box Subscription Platform",
+        "Designing from ground up the Database structure and System.",
+        "Designing the Billing system for multiple subscriptions on a given user to make the internal implementation agnostic of the 3rd Party Vendor that will handle the subscription charges, allowing for future changes to a different vendor if needed, without impacting the system.",
+        "+ I’ll achieve this by using the Factory pattern with common interfaces."
+      ]
+    },
+    {
+      "company": "Disney Interactive",
+      "position": "Sr. Software Engineer",
+      "website": "https://dcpi.disney.com",
+      "startDate": "2011-05-16",
+      "endDate": "2014-08-22",
+      "summary": "The branch I worked at developed social and mobile videogames.",
+      "highlights": [
+        "#### Pirates of the Caribbean – Isles of war (FB and later mobile)",
+        "Added and improved on the SQL revisioning.",
+        "Added Schematics game functionality.",
+        "Support for intangible resources.",
+        "Refactored island defense rewards system.",
+        "Daemon scripts for Intangible resources and Schematics",
+        "Establish and clarified code promotion process.",
+        "Brought the same error handling I added for Hidden Worlds.",
+
+        "#### Hidden Worlds (FB & Mobile simultaneous)",
+        "Used the same DB revisioning I created on TTR Tour",
+        "Developed Item Reward and Consumption manager.",
+        "Simplified management of game items.",
+        "Simplified existing Syntax for CMS to handle items, amounts and ABTests.",
+        "Created a client response object parser. (adobe air objects to php classes)",
+        "Created endpoint for health check.",
+        "Wrote SVN branch promotion scripts.",
+        "Developed one of the two main backend game features in the game. (item reward, scene construction)",
+        "Worked on Social Help feature.",
+        "In charge of adding support for multi-energy.",
+        "Designed the multi device game account sync to allow users to play the same game on multiple devices and on Facebook.",
+        "Created the base framework to allow Unit Testing of the app.",
+        "Improving error communication between client and server.",
+
+        "#### Tap Tap Revenge Tour (iOS)",
+        "Implemented Authorization and Authentication system for Administration Panels.",
+        "Set base structure for service oriented backend applications.",
+        "Worked with a team to design and implement development pipeline and Environment .",
+        "Working on backend game logic (Experience, Achievements, Awards, Tour management).",
+        "Developed a Revisioning system for DB scripts.",
+        "Unit tested most of core libraries and game service controllers.",
+
+        "#### Tap Tap Revenge series (iOS)",
+        "Security code clean up.",
+        "Upgraded systems and cleaned out code to support recent versions of PHP (php 5.2 to 5.3.8)"
+      ]
+    },
+    {
+      "company": "Gazillion",
+      "position": "Web Application Engineer",
+      "website": "http://www.gazillion.com",
+      "startDate": "2008-12-28",
+      "endDate": "2011-04-29",
+      "summary": "Game Developer Company.",
+      "highlights": [
+        "#### Jumpgate, Lewt, Prototype Learning MMO",
+        "Create Authentication system to launch our MMO game.",
+        "Created PHP Framework for service oriented website (codenamed Hydra)",
+        "Created PHP Framework to call third party REST services (Amazon S3 and Playspan)",
+        "Integrated annotation support for PHP (Using Addendum framework)",
+        "Implemented customized CMS support and APIs.",
+        "Refactored great part of the code base to work with IoC and help testability",
+        "Implemented Continuous Integration and became owner of the deployment process. (Cruise Control)"
+      ]
+    },
+    {
+      "company": "Google (Globant Contractor)",
+      "position": "Software Engineer",
+      "website": "https://en.wikipedia.org/wiki/Google_TV",
+      "startDate": "2008-02-25",
+      "endDate": "2008-11-14",
+      "summary": "Argentinian company hired me in Mexico to work at Google's HQ, I was assigned to the Google TV project.",
+      "highlights": [
+        "Created Ectelesi driver and Stress buster (code names for a performance and stress testing frameworks).",
+        "Scripts from Android and Chrome for Webkit Layout testing and port to Linux.",
+        "Framework for testing using Selenium.",
+        "Investigation on ways to test and automate for Platform dependent hardware."
+      ]
+    },
+    {
+      "company": "Truper Herramientas (Mexico)",
+      "position": "Web Developer / Project Leader",
+      "website": "https://www.truper.com.mx",
+      "startDate": "2005-02-07",
+      "endDate": "2008-02-15",
+      "summary": "Hardware tools manufacturer.",
+      "highlights": [
+        "Leader of small team of web developers.",
+        "Developed forecasting system.",
+        "Reengineered intranet system.",
+        "Enhanced server system to support more users.",
+        "Exported server data to different formats online.",
+        "Developed communication with Preferred Stores and our SAP system.",
+        "Investigated and implemented AJAX and other frameworks into our system.",
+        "Brought IDE and Versioning Control development."
+      ]
+    },
+    {
+      "company": "ValMex (Internship)(Mexico)",
+      "position": "Application Developer",
+      "website": "http://www.valmex.com.mx",
+      "startDate": "2004-06-01",
+      "endDate": "2005-02-01",
+      "summary": "Stock Asset Management. (I worked here while on the last semeter of University)",
+      "highlights": [
+        "Automating PDF reporting.",
+        "Documenting system processes.",
+        "Java development assistance.",
+        "Web design improvement."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Samaritan House",
+      "position": "Volunteer",
+      "website": "http://samaritanhousesanmateo.org",
+      "startDate": "2015-12-19",
+      "endDate": "2015-12-19",
+      "summary": "Voluntered to help distribute food to people.",
+      "highlights": []
+    },
+    {
+      "organization": "Samaritan House",
+      "position": "Volunteer",
+      "website": "http://samaritanhousesanmateo.org",
+      "startDate": "2015-12-20",
+      "endDate": "2015-12-20",
+      "summary": "Voluntered to help distribute donated toys to kids.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Technológico y de Estudios Superiores de Monterrey",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2000-08-01",
+      "endDate": "2004-12-15",
+      "gpa": "4.0",
+      "courses": [
+        "Carnegie Mellon University (On-line) - Computer Programming Certfication"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "PHP7 Jump Start",
+      "date": "2015-12-14",
+      "awarder": "Zend Technologies",
+      "summary": ""
+    },
+    {
+      "title": "Sun Certified Java Programmer 1.4",
+      "date": "2004-12-01",
+      "awarder": "Sun Microsystems",
+      "summary": ""
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Back End Development",
+      "level": "Advanced",
+      "keywords": [
+        "PHP 5.3, 5.5, 7",
+        "MySql",
+        "Laravel 4.2",
+        "PHPUnit",
+        "LAMP"
+      ]
+    },
+    {
+      "name": "Front End Development",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML 5",
+        "CSS 3",
+        "JavaScript", 
+        "Angular 1, 2",
+        "NodeJS (getting started)"
+      ]
+    },
+    {
+      "name": "Software Developer",
+      "level": "Intermediate (not recent)",
+      "keywords": [
+        "Java 1.5",
+        "C#",
+        "SqlServer",
+        "Selenium, JUnit, TestNG, jsUnit"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Videogames",
+      "keywords": [
+        "RPG", "Mobile", "PS3", "PS4", "Metal Gear Solid", "Final Fantasy (series)", "Vainglory", "Sonic",
+        "Assassins Creed"
+      ]
+    },
+    {
+      "name": "Board Games",
+      "keywords": [
+        "Co-op", "Competitive",
+        "Formula D", "Splendor", "Puerto Rico", "Agricola", "Catan", "Pathfinder", "Pandemic",
+        "Shadowrun Crossfire", "Bang (the dice game)", "Munchkin", "Give me the Brain", "Chicago Express",
+        "Samurai Swords (Shogun)", "Quarriors"
+      ]
+    },
+    {
+      "name": "Table Tennis",
+      "keywords": [
+        "Ping Pong"
+      ]
+    },
+    {
+      "name": "Movies",
+      "keywords": [
+        "Virtually Any",
+        "Lord of the Rings", "James Bond", "Marvel", "The Matrix", "Back to the Future", "The Godfather",
+        "Harry Potter", "Kung Fu Panda", "Ip Man", "Underworld", "Rambo", "Rocky", "Planet of the Apes", "etc."
+      ]
+    }
+  ],
+  "references": [
+    { 
+      "name": "Patty Gough (Head of Customer Service @ Pley)", 
+      "reference": "Alejandro is skilled and is a fountain of knowledge, he has the patience to explain things well to people in different teams in a way that they understand. He takes pride in his work and always brings creative ideas to the table. I consider myself lucky to work with with such a dedicated, positive and fun person."
+    },
+    {
+      "name": "Sharanya Ciddu (QA Engineer @ Pley)", 
+      "reference": "I worked with Alejandro while at Pley and it was an absolute pleasure. Alejandro designed and developed the backend of Pley. From the perspective of a QA engineer, he was a dream to work with as he always cared for quality of the product and ensured any fixes in a timely manner. He comes up with all the edge cases during product discussion and gave innovative ideas to improve value of the product. Alejandro is a team player, always willing to listen to and build on others' recommendation as well as help others debug when they run into issues."
+    },
+    {
+      "name": "Andrea Chen (Designer @ Pley)",
+      "reference": "Alejandro is a top-notch engineer, and such a joy to work with. He's fast, effective, and always pushes for clean code. Although his main role was back-end focused, he was well-versed in all aspects of our product. If he was not familiar with it, he would learn it in lightning speed. He was a huge help to the junior level developers, and he never hesitated to lend a hand. Moreover, Alejandro is always smiling and friendly, no matter how stressful the situation is. He was eager to know his co-workers as more than just acquaintances, which made it super easy to work with him. Given the chance, I would definitely work with him again."
+    },
+    {
+      "name": "Michale VanLandingham (Director of Technology at Disney Interactive @ Disney Interactive)", 
+      "reference": "I had the pleasure of working at Disney with Alejandro from 2011 to 2014 and managed him for about half of that time. We worked on many of the Tap Tap Revenge games together, as well as several Disney mobile titles, and he always delivered excellent results. He was always great to work with, exhibiting not only skill and intelligence, but a positive attitude and passion for quality." 
+    },
+    {
+      "name" : "Jocelyn Harrington (Sr. iPhone Game Engineer @ Disney Interactive)",
+      "reference": "I am pleased to write this recommendation for Alejandro. Alejandro worked with me on the same project in Disney Mobile Palo Alto for almost 2 years. He's very goal oriented as well as a great team player. Alejandro is smart, energetic, a joy to have in the office and a pro ping-pong player. In the Tap Tap Tour project, I interacted with Alejandro on a daily basis and depended on him for server API. He has excellent software development skills, thinks logically and develops creative solutions to complex problems. His code is always top quality. He manages to deliver the key backend component on time and makes the app release on target. He's easy going and willing to help out other developers when there's a critical feature in the product. I have no hesitation to recommend Alejandro for any Senior Backend Engineer position. I believe he will be an excellent asset to your team."
+    },
+    {
+      "name": "Sandy Parish (Sr. Flash Engineer @ Disney Interactive)",
+      "reference": "Alex is a top-notch server side engineer who I found to be very knowledgeable, personable, and helpful. Alex has a great attitude and is always smiling. He has excellent problem solving skills and communicates well. Alex is a big proponent of Agile/Scrum, and knows how to do it right. Alex would be a strong addition to any team. I highly recommend him."
+    },
+    { 
+      "name": "Brendan Morante (Sr. Backend Engineer @ Disney Interactive)", 
+      "reference": "I worked with Alejandro on several projects throughout my tenure at Disney Interactive and it has always been a pleasure. Alejandro is always very level-headed and professional, even in the most stressful of times. He strives to bring quality and reliability to not only his code, but the project as a whole. While he's not afraid to speak his mind, voice concerns, or fight for his decisions, you will never have the problem of his ego getting in the way. He leads by example and is a great team member always willing to collaborate and ask for others viewpoints to find the best solutions to tricky problems. On top of his technical chops, he's just a great guy to hang with. I definitely look forward to any opportunity to work with Alejandro again in the future." 
+    },
+    { 
+      "name": "Gregory Frank (Flash Engineer @ Disney Interactive)", 
+      "reference": "Alejandro Salazar is more than just a developer with a cool name, he is also an amazing employee. His work ethic is one of the most professional I have ever seen. We worked on a huge game with a huge code base together that expanded across the ocean. Yet no matter what bugs were introduced or how sloppy the code was written Alejandro figured out what the issues were as quick as humanly possible, maybe even quicker. Not only did he fix all of the bugs assigned to him, but he also cleaned up and refactored sloppy code he found in the project written by others without a single complaint or any attitude. He was always concerned with how to improve the code base and if anyone needed help or support from the sever team, he was the always the first to volunteer to help out no matter the work load. When we worked on bugs or features together, it would always get done correctly the first time and efficiently. Alejandro is also one of the few engineers that I worked with in my career that is super approachable and has exceptional written and verbal communication skills. I can't say how much of pleasure it was to work with him in words, and if I had the graphing skills that Alejandro did (he provided amazing graphs to accompany his e-mails and tech reports) I might be able to graph it. I would work with him again any day of the week. If I start my own company or any where I end up and they have server roles open, he will always be at the top of my list to call. Not only was Alejandro a great engineer, but it is also a great person to look to for advice during the off hours after work. Hopefully one day soon I will be able to work with him again and I look forward to that day." 
+    },
+    {
+      "name": "Pedro Hernandez (Staff Engineer @ Disney Interactive)",
+      "reference": "It was an absolute pleasure to work with Alejandro at Disney. Alejandro has excellent technical skills with strong desire to learn, as well as impart his knowledge. He never stopped trying to absorb as much as possible. Alejandro brought a great, positive energy to the team helping to motivate those around naturally. He would volunteer to take on difficult tasks to make sure that things are done right the first time. Throw in being a self starter, team player, and he is thorough with is work. Alejandro is a tremendous asset to any software engineering team." 
+    },
+    {
+      "name": "Trivikram Immaneni (Sr. Backend Engineer @ Disney Interactive)",
+      "reference": "I worked with Alejandro for almost a year and a half. He was an indispensable part of the Backend team and last year, he pretty much led the effort to redesign our php layer. Recently, he made major contributions to Tap Tap Tour. I remember how he meticulously designed the schema for that game and how he actively sought the team's input to make sure he did not overlook anything. Alex is very diligent and has a systematic approach to development. He is great to work with and is an awesome Table Tennis player. He will make a great addition to any team." 
+    },
+    {
+      "name": "Andy Platter (Director of Engineering @ Gazillion)",
+      "reference": "During the nearly two years I worked with Alejandro I was continually impressed. Alejandro is a developer who does everything the right way without compromise. He has the tenacity to find the most optimal and elegant solution. Alejandro has a great attitude and brings a great energy to any team he is part of. I would eagerly work with Alejandro in the future." 
+    },
+    {
+      "name": "Shun Chu (Lead UI Engineer @ Gazillion)",
+      "reference": "Alejandro is an awesome back-end engineer to work with. He goes above and beyond call of duty to make sure the front end engineers have simple data objects to work with and will go extra miles to help troubleshoot things even if they seem unrelated to the back-end. His openness and desire to share knowledge is what I'll miss most about him. One can also tell a lot about an individual on efforts he invests in on activities outside of work. When Alejandro puts his mind into something, he won't rest until he becomes proficient in the said skills -- if he can do that on something seemingly as trivial as, say, table tennis, one can only imagine what he can do with things he takes **really** seriously." 
+    },
+    {
+      "name": "Justin Bastedo (ActionScript Engineer @ Gazillion)",
+      "reference": "Alejandro is an extremely hard working and bright engineer to work with. He was always willing to sit down and work with us on the front end to make sure our needs were being met and usually found him exceeding our expectations. He has great communication skills and was always a joy to work with. When it came to solving tough problems he was always there ready to think outside the box and was always happy to share and work out ideas until we had a working solution. I would be excited to get the chance to work with Alejandro again on any project!" 
+    },
+    {
+      "name": "Derek Shigemi",
+      "reference": "Alex is a very determined programmer. He strives to make his code clean and run efficiently. He enjoys getting his code reviewed and quickly makes any adjustments if necessary. I’ve even receive emails about how to use his code to help speed up the construction of the site or tool. Its great to have someone like Alex in the backend because his communication helps bring the teams together and focused on company goals."
+    },
+    {
+      "name": "Sherban Drulea (Lead Web Application Developer @ Gazillion)",
+      "reference": "Alejandro is a skilled and diligent engineer who reliably produces excellent results. His code is consistently refined and robust. He's passionate about his craft and expertly balances polish with deadlines. Moreover, his upbeat proactive attitude is an asset to any team he's on. Did I mention he's also a talented ping pong player? I'd gladly work with Alejandro again." 
+    }
+  ]
+}
